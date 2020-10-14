@@ -1,0 +1,786 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: "poppins", sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+  a:hover {
+  color: grey;
+  }
+  
+.main-nav {
+    display: inline-block;
+  }
+  
+  h1, h2, h3, h4, h5, p {
+    font-family: "poppins", sans-serif;
+    margin: 0; }
+
+    ul li {
+    list-style: none; 
+    }
+  
+    a {
+    text-decoration: none;      
+    }
+    .mobile-nav {
+    display: none;  
+    }  
+
+.topnav {
+color: #fff;
+}
+.logo {
+margin: 10px 60px;
+padding: 10px 40px;
+}
+.little-logo {
+padding: 22px 20px;
+}
+
+.little-logo .fa {
+    padding-left: 32px;
+}
+
+.main-nav {
+max-width: 800px;
+margin: 15px 0;
+}
+
+.nav {
+    margin-left: 40px;
+}
+
+.nav-link {
+    color: #22262A;
+}
+/*----------main/body css-----*/
+.sub-img {
+  margin-top: 20px;
+}
+
+.first-image {
+    margin-top: 5px;
+    
+}
+
+.first-image img {
+    width: 100%;
+    height: auto;
+}
+
+.head-text {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    color: #22262A;
+    top: 460px;
+    left: 60%;
+}
+.head-text p, span{
+    font-size: 18px;
+    color: #22262A;
+    font-weight: 500;
+}
+
+.head-text h2 {
+    font-size: 80px;
+    color: #22262A;
+    font-weight: 700;
+}
+
+.head-text .btn {
+margin: 20px 20px 0 0;
+padding: 2px 30px;
+border: none;
+text-decoration: none;
+border-radius: 1.5px;
+}
+
+
+.btn3 {
+position: absolute;
+top: 90%;
+left: 7%;
+background-color: #fff;
+padding: 2px 30px;
+border: none;
+text-decoration: none;
+border-radius: 1px;
+}
+
+.btn3:hover {
+    background-color: #fff;
+}
+   #panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+
+
+/*---------sections under main image---------*/
+
+.photo-boot {
+    margin: 90px 120px;
+    padding: 20px 25px 5px 12.5px;
+}
+ 
+  .one {
+    float: left;
+    max-width: 522px;
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+   
+  }
+
+  .funky2{
+    float: right;
+    max-width: 525px;
+    width: 100%;
+    height: auto;
+   
+  }
+
+  .three {
+    padding: 15px 0;
+    width: 50%;
+    height: 300px;
+    margin-top: -285px;
+    margin-left: 45px; 
+  }
+  .four {
+    max-width: 269.19px;
+    padding: 15px 15px 0 0;
+    width: 100%;
+    height: auto;
+  }
+
+
+  /*---------2nd section under main image---------*/
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .sales h2 {
+      text-align: center;
+      color: #22262A;
+      font-size: 20px;
+      margin-top: 114px;
+  }
+  .sales .special {
+      text-align: center;
+      color: 22262A;
+      margin-top: 5px;
+      font-size: 15px;
+  }
+
+.sale-home {
+    margin: 0;
+}
+
+  .sale-figures {
+ padding: 15px 12px;
+  }
+
+  .sale-figures img {
+    width: 230px;
+    margin-top: 80px;
+  }
+  .sale-figures p {
+      margin-top: 25px;
+      font-size: 9px;
+      color:#22262A;
+  }
+
+  .sale-figures span {
+    color: tomato;
+    margin: 0 30px;
+    font-size: 15px;
+}
+  .sale-figures h3 {
+      font-size: 15px;
+      font-weight: 600;
+  }
+
+
+.money {
+    font-size: 15px;
+}
+
+  /*---break!!!-----*/
+  
+
+
+.product {
+   margin: 50px 150px;
+}
+
+.filter__controls {
+	text-align: right;
+	margin-bottom: 50px;
+}
+
+.product__item {
+margin: 75px;
+    
+}
+
+/*----pause------*/
+/*----play something else!!------*/
+.toptext {
+    text-align: center;
+    margin-top: 180px;
+}
+
+
+.topbrand {
+    margin: 50px 0;
+}
+
+.pend p {
+font-size: 13px;
+margin-top: -50px;
+margin-left: 20%;
+border-bottom: 1px solid #000000;
+width: 33%;
+}
+
+.cray a {
+    color: #22262A;
+    font-size: 15px;
+    border-bottom: 1px solid #000000;
+}
+
+.fire {
+    float: left;
+    max-width: 522px;
+    width: 100%;
+    height: 80%;
+    margin-left: -20px;
+    margin-top: 120px;
+  }
+
+  .freaky{
+    float: right;
+    max-width: 514px;
+    width: 100%;
+    height: 60%;
+    margin-right: 10px;
+    margin-top: 45px;
+  }
+
+
+.fixer {
+margin-left: 55%;
+margin-top: -95px;
+z-index: 997;
+border-top: 22px solid #ffffff;
+border-left: 25px solid #ffffff;
+
+}
+  
+  /*-------ladies-------*/
+
+.bg{
+    margin-top: 71px;
+    height: 100%; 
+    width: 100%;
+    background-position: center;
+}
+
+.fa {
+    padding: 0;
+    font-size: 2px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 2px;
+    border-radius: 50%;
+    color: #111;
+    }
+  
+.fa:hover {
+    text-decoration: none;
+}
+
+  .fa-facebook {
+    background: #111;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #111;
+    color: white;
+    border-radius: 5%; 
+  }
+  
+  
+.toptext p {
+    padding: 15px 0;
+    font-size: 15px;
+
+}
+  
+
+.bottom-text {
+    color: #22262A;
+    margin-top: -270px;
+    margin-left: 11%;
+}
+.bottom-text p {
+    font-size: 15px;
+    color: #22262A;
+    font-weight: 500;
+}
+
+.bottom-text h2 {
+    font-size: 60px;
+    color: #22262A;
+    font-weight: 700;
+}
+
+.bottom-text .btn2 {
+padding: 0 15px;
+margin-left: 0;
+background-color: #22262A;
+border: none;
+text-decoration: none;
+border-radius: 1.3px;
+}
+
+/*-------footer------*/
+
+.footer {
+    margin-top: 120px;
+    background-color: #F2F8FC;
+    height: auto;
+}
+.extend {
+    width: 490px;
+    border: none;
+    height: 35px;
+    padding: 10px 20px;
+}
+
+.copyrightext {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #22262A;
+}
+.footer-thing {
+  margin-top: 100px; 
+}
+.footer-news {
+    max-width: 406px; 
+    margin-top: 100px;    
+}
+
+.footer-newslatter h6 {
+font-size: 25px;
+color: #22262A;
+font-weight: 800;
+}
+
+.footer-thing p {
+    max-width: 300px;
+    margin-top: 15px;  
+    font-size: 11px;
+  }
+  input[type=text] {
+      color: #22262A;
+      outline: none;
+  }
+
+  .footer-dev {
+    margin: 65px 0;
+    width: 210%;
+    line-height: 10px;
+    }
+
+.footer-dev h4 {
+font-size: 18px;
+font-weight: 600;
+color: #22262A;
+}
+.footer-dev ul li {
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #22262A;
+}
+
+.footer-info {
+    margin: 15px 0;
+    line-height: 25px;
+}
+
+.footer-info span {
+    padding: 0;
+    margin-right: 21px;
+}
+
+.footer-info p {
+  font-size: 15px;
+  color:#22262A;
+}
+
+.footer-info .spec {
+    margin-top: 0;
+    font-size: 15px;
+    color:#22262A;
+  }
+.footer-info img {
+    margin: 20px 0;
+}
+
+.footer-info .ink {
+    font-size: 15px;
+    color:#22262A;
+    border-bottom: 1px solid #000000;
+  }
+.ink:hover {
+    text-decoration: none;
+}
+.footer-bottom {
+    background-color: #E7F5F8;
+    padding: 10px 30px 25px 0px;
+}
+
+
+
+/*-------responsive way!!!!---------*/
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1180px) {
+.head-text {
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+    color: #22262A;
+    top: 410px;
+left: 58%;
+    }
+}
+
+
+
+@media only screen and (max-width: 1080px) {
+    .topnav{
+        width: 100%;
+        height: auto;
+    }
+    .topnav .col-md-3 {
+        width: 100%;
+        height: auto;
+    }
+    .topnav .main-nav {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+    .topnav .little-logo {
+        width: 10%;
+        height: auto;
+        margin: -145px 75%;
+    }
+    .head-text {
+        position: absolute;
+        max-width: 50%;
+        height: auto;
+        color: #22262A;
+        top: 410px;
+    left: 58%;
+        }
+    .head-text p {
+        font-size: 7px;
+    }
+    .head-text h2 {
+        font-size: 15px;
+    }
+    .head-text span {
+        font-size: 9px;
+    }
+    .head-text .btn1 {
+        font-size: 3px;
+    }
+    .head-text .btn2 {
+        font-size: 3px;
+    }
+    .photo-boot {
+        margin: 45px 0;
+        padding: 20px 25px 5px 12.5px;
+        }
+        .one {
+            float: left;
+            max-width: 322px;
+            width: 100%;
+            height: auto;
+            margin-left: 15%;
+           
+          }
+        
+          .funky2{
+            float: right;
+            max-width: 325px;
+            width: 100%;
+            height: auto;
+           margin-right: 12%;
+          }
+        
+          .three {
+            padding: 15px 0;
+            width: 340px;
+            height: auto;
+            margin-top: -190px;
+            margin-left: 152px; 
+          }
+          .four {
+            max-width: 269.19px;
+            padding: 15px 15px 0 0;
+            width: 50%;
+            height: auto;
+          }
+
+          .nav-link {
+            color: #22262A;
+            font-size: 13px;
+        }
+  }
+
+  @media only screen and (max-width: 750px) {
+      .footer-thing {
+          padding: 0 10px;
+      }
+      .col-md-3 {
+          padding: 2% 3%;
+      }
+      .sales h2 {
+        text-align: left;
+        color: #22262A;
+        font-size: 20px;
+        margin-top: 114px;
+        }
+        .toptext p {
+            text-align: left;
+            padding: 15px 0;
+            font-size: 15px;
+            }
+        
+            .toptext h2 {
+                text-align: left;
+            }
+            .freaky {
+                float: right;
+                max-width: 100%;
+                width: 100%;
+                height: 60%;
+                margin-right: 20px;
+                margin-top: 45px;
+                }
+
+
+      .sales .special {
+        text-align: left;
+        color: 22262A;
+        margin-top: 5px;
+        font-size: 15px;
+        }
+      .sale-home {
+          margin: 0 25%;
+      }
+      .yetty {
+          display: none;
+      }
+    .topnav{
+        width: 100%;
+        height: auto;
+    }
+    .topnav .col-md-3 {
+        width: 100%;
+        height: auto;
+    }
+    .topnav .main-nav {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+    .topnav .little-logo {
+        width: 10%;
+        height: auto;
+        margin: -205px 60%;
+    }
+    .head-text {
+        width: 159px;
+        margin: -187px -32px;
+        display: none;
+    }
+    .head-text p {
+        font-size: 7px;
+    }
+    .head-text h2 {
+        font-size: 12px;
+    }
+    .head-text span {
+        font-size: 7px;
+    }
+    .head-text .btn1 {
+        margin-top: 0;
+        font-size: 1.5px;
+    }
+    .head-text .btn2 {
+        font-size:  1.5%;
+    } 
+    .photo-boot {
+        margin: 45px 60px;
+        padding: 20px 25px 5px 12.5px;
+        }
+        .one {
+            float: left;
+            max-width: 322px;
+            width: 100%;
+            height: auto;
+            margin-left: 0;
+           
+          }
+        
+          .funky2{
+            float: right;
+            max-width: 325px;
+            width: 100%;
+            height: auto;
+           margin-right: 88px;
+          }
+        
+          .three {
+            padding: 15px 0;
+            width: 340px;
+            height: auto;
+            margin-top: -190px;
+            margin-left: 0; 
+            display: none;
+          }
+          .four {
+            max-width: 269.19px;
+            padding: 15px 0;
+            width: 50%;
+            height: auto;
+          }
+  }
+  @media only screen and (max-width: 440px) {
+    .yetty {
+        display: none;
+    }
+  .topnav{
+      width: 100%;
+      height: auto;
+  }
+  .topnav .col-md-3 {
+      width: 100%;
+      height: auto;
+  }
+  .topnav .main-nav {
+      width: 100%;
+      height: auto;
+      padding: 30px;
+  }
+  .topnav .little-logo {
+      width: 10%;
+      height: auto;
+      margin: -205px 60%;
+  }
+  .head-text {
+      width: 400px;
+      margin: -97px -35px;
+      
+  }
+  .head-text p {
+      font-size: 7px;
+  }
+  .head-text h2 {
+      font-size: 12px;
+  }
+  .head-text span {
+      font-size: 7px;
+  }
+  .head-text .btn1 {
+      margin-top: 0;
+      font-size: 1.5px;
+  }
+  .head-text .btn2 {
+      font-size:  1.5%;
+  } 
+  .photo-boot {
+      margin: 45px 60px;
+      padding: 20px 25px 5px 12.5px;
+      }
+      .one {
+          float: left;
+          max-width: 172px;
+          width: 100%;
+          height: auto;
+          margin-left: 0;
+         
+        }
+      
+        .funky2{
+          float: right;
+          max-width: 175px;
+          width: 100%;
+          height: auto;
+         margin-right: 88px;
+        }
+      
+        .three {
+          padding: 15px 0;
+          width: 170px;
+          height: auto;
+          margin-top: -190px;
+          margin-left: 0; 
+          display: none;
+        }
+        .four {
+          max-width: 179.19px;
+          padding: 15px 0;
+          width: 50%;
+          height: auto;
+        }
+  .sales , .sales-men {
+      font-size: 10px;
+  }
+
+  .sale-figures {
+    margin: 15px 135px;
+    }
+
+  .sale-figures img {
+      max-width: 200px;
+  }
+  .last-image {
+      display: none;
+  }
+  }
